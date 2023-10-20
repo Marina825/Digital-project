@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&display=swap");
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  min-width: 600px;
+  min-height: 80px;
+  align-items: center;
+}
+.header-list-li {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  list-style: none;
+}
+.header-list-li:first-child {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.block-content-header {
+  display: flex;
+  justify-content: space-around;
+}
+.content-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.header-content-left {
+  font-family: "Nunito", sans-serif;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  text-align: left;
+  color: #bdbdbd;
+  margin-bottom: 5px;
+}
+.header-container-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.header-container-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.header-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text-content-left {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.button-header {
+  all: unset;
+  margin-right: 25px;
+}
+.text-content-left-bottom {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bdbdbd;
+}
+.content-right {
+  position: relative;
+  display: inline-block;
+}
+.button-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  min-height: 70px;
+  min-width: 220px;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.about-company {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f8f8f8;
+  min-width: 1200px;
+  margin: 100px 0;
+}
+.header-block-about-company {
+  font-family: "Nunito", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bdbdbd;
+}
+.text-block-about-company {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 400px;
+}
+.img-header {
+  display: flex;
+  flex-direction: column;
+  min-height: 450px;
+  justify-content: space-around;
+}
+.images-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 590px;
+}
+.content-header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 800px;
+  justify-content: space-evenly;
+}
+.logo-header {
+  min-height: 80px;
+  align-items: center;
+  display: flex;
+}
+.header-list-li:first-child {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.header-top {
+  min-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.button-block-about-company {
+  padding: 10px;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  min-height: 70px;
+  min-width: 220px;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.block-about-company {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
